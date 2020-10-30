@@ -1,0 +1,23 @@
+GET http://localhost:3000/
+
+##################################################################################################
+
+POST http://localhost:3000/users/login HTTP/1.1
+content-type: application/json
+
+{
+    "username": "sarat",
+    "password": "password"
+}
+
+##################################################################################################
+
+POST http://localhost:3000/users/signup HTTP/1.1
+content-type: application/json
+
+{
+    "username": "sarat",
+    "password": "password",
+    "email":"chandrasarat74@gmail.com",
+    "phone":"9553669487"
+}
